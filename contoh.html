@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-list li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.course-list a {
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.course-list img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.course-list h2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+.course-list p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 0 20px;
+}
+
+</style>
+<body>
+
+
+    <ul class="course-list">
+  <li>
+    <a href="#">
+      <img src="course-thumbnail.jpg" alt="Course Thumbnail">
+      <h2>Course Title</h2>
+      <p>Course description goes here...</p>
+    </a>
+  </li>
+  <!-- Repeat the above list item for each course -->
+</ul>
+
+    
+</body>
+</html>
